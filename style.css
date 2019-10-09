@@ -1,0 +1,81 @@
+body {
+    margin:0;
+    padding:0;
+    font-family: "Times New Roman", Georgia, Serif;
+    
+}
+.nav {
+   
+    background-color: white;
+    color:black;
+    text-align: right;
+    list-style: none;
+    padding: 20px 0 0 0;
+    letter-spacing: 5px;
+}
+
+.nav li {
+    
+    display: inline-block;
+    padding: 0 25px 0 25px;
+    font-size: 14px;
+    letter-spacing: 5px;
+    
+}
+.nav > li > a {
+    
+    text-decoration: none;
+    color: black;
+}
+.nav > li > a:hover{
+    
+    color: ivory;
+}
+.logo{
+    
+    font-size: 16px;
+    font-weight: bold;
+    color:black;
+    float:left;
+    padding-left:25px;
+}
+.logo > a {
+    
+    text-decoration: none;
+    color:black;   
+}
+.container {
+    width: 100%;
+    display: block;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.banner-image1 {
+    
+    width: 100%;
+    display: block;
+    
+}
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px; 
+    color:gray;
+    font-size: large;
+}
+p {
+    font-family: Papyrus,fantasy;
+    padding-left: 15px;
+    color:gray;
+}
+.aboutme span {
+    font-size: 30px;
+    color:powderblue;
+}
+.aboutme_image {
+     width="300" height="300";
+     padding-left: 230px;
+     float:left;
+     padding-right: 30px;
+}
